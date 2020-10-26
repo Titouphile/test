@@ -2,5 +2,9 @@
   <head>
   </head>
   <body>
-    <coucou>
+    <h1>coucou</h1>
+    <?php
+      echo 'Bonjour ' . htmlspecialchars($_POST["$_COOKIE"]) . '!';
+      echo 'Bonjour ' . htmlspecialchars($_GET["$_COOKIE"]) . '!';
+      ?>
   </body>
